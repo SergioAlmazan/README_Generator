@@ -24,8 +24,8 @@ function generateMarkdown(data) {
   ## Test
   ${data.Test}
   ## Questions
-  Contact me:
-  Github:[${data.Username}]
+  Contact me:\
+  Github:[${data.Username}]\
   Email:[${data.Email}]
   `;
   }

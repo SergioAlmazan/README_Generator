@@ -1,7 +1,8 @@
+
   # **README Generator**
-  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   ## Description 
-  A simple README Generator
+  A simple README generator
   ## Table of contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -11,9 +12,9 @@
   - [Test](#Test)
   - [Questions](#Questions) 
   ## Installation
-          Clone the repo
+          clone it
   ## Usage
-  Once installed simply run node index.js
+  run node index.js
   ## Licence
   MIT
   ## Contributors
@@ -21,7 +22,5 @@
   ## Test
   run node index.js
   ## Questions
-  Contact me:
-  Github:[Sergio Almazan]
-  Email:[sergioalmazan@gmail.com]
+  Contact me:  Github:[SergioAlmazan]  Email:[sergioalmazan@gmail.com]
   
