@@ -12,15 +12,20 @@
   - [Test](#Test)
   - [Questions](#Questions) 
   ## Installation
-          clone it
+          clone
   ## Usage
   run node index.js
   ## Licence
   MIT
   ## Contributors
-  Sergio
+  sergio
   ## Test
   run node index.js
   ## Questions
-  Contact me:  Github:[SergioAlmazan]  Email:[sergioalmazan@gmail.com]
+  
+  Contact me:
+
+  Github:[SergioAlmazan]
+
+  Email:[sergioalmazan@gmail.com]
   
