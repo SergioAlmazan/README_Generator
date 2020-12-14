@@ -13,7 +13,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "badge",
+        name: "Badge",
         message: "Please provide the badges links that you want"
     },
     {
@@ -40,11 +40,6 @@ const questions = [
         type: "input",
         message: "How do you test your project?",
         name: "Test"
-    },
-    {
-        type: "input",
-        message: "Contact info for further questions",
-        name: "Questions"
     },
     {
         type: "list",
@@ -76,22 +71,29 @@ const questions = [
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-    writeFile(fileName, data, err => {
-        if (err) {
-          throw err;
-        }
-      });
-    }
+// fs.writeFile("README.md", response, function(err) {
+//     if (err) {
+//       throw err;
+//     };
+
+//     console.log("New README file created with success!");
+//   });
+
 
 // function to initialize program
 function init() {
     prompt(questions).then(answers => {
         
-        const response = generateMarkdown(answers);
+        const response = gen(answers);
         console.log(answers);
        
-        writeToFile("README.md", response);
+        fs.writeFile("README.md", response, function(err) {
+            if (err) {
+              throw err;
+            };
+        
+            console.log("New README file created with success!");
+          });
       
     })
     
