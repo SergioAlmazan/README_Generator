@@ -24,12 +24,12 @@ function generateMarkdown(data) {
   ## Test
   ${data.Test}
   ## Questions
-  
+
   Contact me:
 
-  Github:[${data.Username}]
+  Github Username:${data.Username}
 
-  Email:[${data.Email}]
+  Email:${data.Email}
   `;
   }
   

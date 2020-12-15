@@ -1,8 +1,8 @@
 
   # **README Generator**
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+  [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
   ## Description 
-  A simple README generator
+  A simple README generator that utilizes command line to get user's input.
   ## Table of contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -12,20 +12,20 @@
   - [Test](#Test)
   - [Questions](#Questions) 
   ## Installation
-          clone
+          In the terminal run - git clone https://github.com/SergioAlmazan/README_Generator.git ( to clone repo). Then run npm i to download necessary dependencies to allow the application to work.
   ## Usage
-  run node index.js
+  Run node index.js in the terminal in the newly cloned repo folder.
   ## Licence
-  MIT
+  None
   ## Contributors
-  sergio
+  None
   ## Test
-  run node index.js
+  To test to see if the application work run node index.js and go throught the questions and see if it creates a new README file.
   ## Questions
-  
+
   Contact me:
 
-  Github:[SergioAlmazan]
+  Github Username:SergioAlmazan
 
-  Email:[sergioalmazan@gmail.com]
+  Email:sergioalmazan22@gmail.com
   
