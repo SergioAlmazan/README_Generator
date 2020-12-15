@@ -27,5 +27,5 @@
 
   Github Username:SergioAlmazan
 
-  Email:sergioalmazan22@gmail.com
+  Email:sergioalmazan@gmail.com
   
