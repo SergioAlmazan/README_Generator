@@ -69,18 +69,6 @@ const questions = [
     
 ];
 
-
-// function to write README file
-// fs.writeFile("README.md", response, function(err) {
-//     if (err) {
-//       throw err;
-//     };
-
-//     console.log("New README file created with success!");
-//   });
-
-
-// function to initialize program
 function init() {
     prompt(questions).then(answers => {
         
